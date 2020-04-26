@@ -2,9 +2,9 @@
 This project failed. It does not work correctly.
 
 ### Abstract
-Because Av's are still using string detection, Projects compiled with Pyinstaller
-are leaking strings in the final PE. this can be obfuscated via traditional methods
-like encoding or string obfuscation and polymorphic. But Pyinstaller has to "see"
+Av's are still using static string detection. Projects compiled with Pyinstaller
+are leaking strings in the final PE. This can be obfuscated via traditional methods
+like encoding or string obfuscation and polymorphism. But Pyinstaller has to "see"
 plain import strings in order to load all modules. So when compiling to an exe,
 these import strings cannot change. The aim of this program is to change the names
 of all files in a python project and adjust all import statements accordingly. This is
