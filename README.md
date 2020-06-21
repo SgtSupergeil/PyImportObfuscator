@@ -17,7 +17,7 @@ done via python's [ast](https://docs.python.org/3/library/ast.html) lib to parse
 2) Generate new names for files
 3) Rename and adjust imports in sourcecode of each file
 
-## Why it fails
+## Problems 
 Imports are not that simple:
 
 - There may be runtime imports, via exec or importlib
